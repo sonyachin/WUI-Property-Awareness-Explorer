@@ -1,0 +1,17 @@
+/*! @emotion/react/jsx-runtime */
+
+/*! @esri/calcite-components-react */
+
+/*! jimu-core */
+
+/*! jimu-ui/advanced/data-source-selector */
+
+/*! jimu-ui/advanced/setting-components */
+
+/*!******************************************!*\
+  !*** ./jimu-core/lib/set-public-path.ts ***!
+  \******************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./your-extensions/widgets/defensible-space-fire-buffer/src/setting/setting.tsx ***!
+  \**************************************************************************************/

@@ -1,0 +1,22 @@
+{
+  "name": "defensible-space-fire-buffer",
+  "label": "Defensible Space Fire Buffer",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "author": "Sam Tingle",
+  "description": "Receives Near Me selection or polygon click and draws 5, 30, and 100 ft polygon buffers.",
+  "copyright": "",
+  "license": "",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 600,
+    "height": 420
+  }
+}
