@@ -239,7 +239,7 @@
             "top": "0.0%",
             "bottom": "0.0%",
             "width": "100.0%",
-            "height": "100.0%"
+            "height": "100.0000%"
           },
           "setting": {
             "autoProps": {
@@ -328,7 +328,7 @@
           "widgetId": "widget_14",
           "bbox": {
             "width": "265px",
-            "height": "135px"
+            "height": "235.00px"
           },
           "setting": {
             "autoProps": {
@@ -384,7 +384,8 @@
             "autoProps": {
               "height": "AUTO"
             }
-          }
+          },
+          "isPending": true
         },
         "1": {
           "type": "WIDGET",
@@ -411,12 +412,26 @@
               "height": "AUTO"
             }
           }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_254",
+          "bbox": {
+            "width": "527px",
+            "height": "106px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
         }
       },
       "type": "COLUMN",
       "label": "Default",
       "order": [
         "0",
+        "3",
         "1",
         "2"
       ],
@@ -478,12 +493,14 @@
           "setting": {
             "autoProps": {
               "height": "STRETCH"
-            }
+            },
+            "heightMode": "fixed",
+            "aspectRatio": 0.53
           },
           "bbox": {
             "left": 0,
             "width": 12,
-            "height": "455px"
+            "height": "231px"
           }
         }
       },
@@ -508,47 +525,10 @@
       }
     },
     "layout_8": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_19",
-          "setting": {
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
-          "bbox": {
-            "left": 0,
-            "width": 6,
-            "height": "44px"
-          }
-        },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_245",
-          "setting": {
-            "autoProps": {
-              "height": "CUSTOM"
-            },
-            "style": {
-              "alignSelf": "flex-end"
-            },
-            "heightMode": "fixed",
-            "aspectRatio": 0.16
-          },
-          "bbox": {
-            "left": 10,
-            "width": 2,
-            "height": "35px"
-          }
-        }
-      },
+      "content": {},
       "type": "ROW",
       "label": "Default",
-      "order": [
-        "0",
-        "1"
-      ],
+      "order": [],
       "setting": {
         "space": 10,
         "style": {
@@ -609,6 +589,28 @@
     },
     "layout_13": {
       "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_168",
+          "bbox": {
+            "left": "18.4%",
+            "right": "16.2%",
+            "top": "97.5%",
+            "bottom": "0.0%",
+            "width": "65.4%",
+            "height": "2.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
         "1": {
           "type": "WIDGET",
           "widgetId": "widget_27",
@@ -636,12 +638,12 @@
           "type": "WIDGET",
           "widgetId": "widget_177",
           "bbox": {
-            "left": "45.2%",
+            "left": "23.2%",
             "right": "9px",
-            "top": "84.5%",
+            "top": "81.6%",
             "bottom": "23px",
-            "width": "473px",
-            "height": "104px"
+            "width": "571px",
+            "height": "109px"
           },
           "setting": {
             "autoProps": {
@@ -658,31 +660,56 @@
           "type": "WIDGET",
           "widgetId": "widget_21",
           "bbox": {
-            "left": "307px",
-            "right": "63.4%",
+            "left": "0.00px",
+            "right": "90.7%",
             "top": "2.2%",
-            "bottom": "95.8%",
-            "width": "1.8%",
-            "height": "2.0%"
+            "bottom": "0.00%",
+            "width": "0.00%",
+            "height": "0.00%"
           },
           "setting": {
             "autoProps": {
               "left": false,
               "right": true,
-              "top": false,
-              "bottom": true
+              "top": true,
+              "bottom": false
             },
             "vCenter": false,
             "hCenter": false
           }
+        },
+        "7": {
+          "type": "WIDGET",
+          "widgetId": "widget_244",
+          "bbox": {
+            "left": "11.6%",
+            "right": "80.1%",
+            "top": "90.8%",
+            "bottom": "4.7%",
+            "width": "8.3%",
+            "height": "4.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": true
         }
       },
       "type": "FIXED",
       "label": "Map FixedLayout",
       "order": [
-        "6",
         "1",
-        "5"
+        "5",
+        "7",
+        "0",
+        "6"
       ]
     },
     "layout_14": {
@@ -3219,8 +3246,8 @@
           "type": "WIDGET",
           "widgetId": "widget_25",
           "bbox": {
-            "width": "407px",
-            "height": 300
+            "width": "343px",
+            "height": "269px"
           },
           "setting": {
             "autoProps": {
@@ -3233,11 +3260,15 @@
           "widgetId": "widget_28",
           "bbox": {
             "width": "200.00px",
-            "height": 338
+            "height": "18.00%"
           },
           "setting": {
             "autoProps": {
-              "width": "AUTO"
+              "width": "CUSTOM",
+              "height": "STRETCH"
+            },
+            "style": {
+              "alignSelf": "center"
             }
           }
         }
@@ -3258,23 +3289,23 @@
           "type": "WIDGET",
           "widgetId": "widget_174",
           "bbox": {
-            "left": "8px",
-            "right": "5.5%",
-            "top": "50%",
-            "bottom": "7.2%",
-            "width": "92.8%",
-            "height": "85.6%"
+            "left": "0px",
+            "right": "0.0%",
+            "top": "5.3%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "94.7%"
           },
           "setting": {
             "autoProps": {
-              "right": true,
-              "left": false,
-              "top": false,
-              "bottom": true,
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false,
               "height": "AUTO",
               "width": "AUTO"
             },
-            "vCenter": true,
+            "vCenter": false,
             "hCenter": false
           }
         },
@@ -3302,32 +3333,11 @@
             "hCenter": false,
             "lockParent": true
           }
-        },
-        "2": {
-          "type": "WIDGET",
-          "widgetId": "widget_244",
-          "bbox": {
-            "left": "56.0%",
-            "right": "33.0%",
-            "top": "35.3%",
-            "bottom": "34.8%",
-            "width": "11.0%",
-            "height": "29.8%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            }
-          }
         }
       },
       "type": "FIXED",
       "label": "Default",
       "order": [
-        "2",
         "0",
         "1"
       ]
@@ -3339,11 +3349,11 @@
           "widgetId": "widget_178",
           "bbox": {
             "width": "595px",
-            "height": "290.00px"
+            "height": "270.00px"
           },
           "setting": {
             "autoProps": {
-              "height": "CUSTOM"
+              "height": "AUTO"
             }
           }
         }
@@ -3362,7 +3372,8 @@
             10
           ],
           "unit": "px"
-        }
+        },
+        "justifyContent": "flex-start"
       }
     },
     "layout_151": {
@@ -3778,6 +3789,29 @@
     },
     "layout_164": {
       "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_168",
+          "bbox": {
+            "left": "18.4%",
+            "right": "16.2%",
+            "top": "94.5%",
+            "bottom": "0.0%",
+            "width": "65.4%",
+            "height": "5.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": true
+        },
         "6": {
           "type": "WIDGET",
           "widgetId": "widget_21",
@@ -3827,6 +3861,7 @@
       "label": "Map FixedLayout",
       "order": [
         "6",
+        "0",
         "7"
       ]
     },
@@ -4145,14 +4180,26 @@
               "height": "STRETCH"
             }
           }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_258",
+          "bbox": {
+            "width": "580px",
+            "height": "24px"
+          }
         }
       },
       "type": "COLUMN",
       "label": "Default",
       "order": [
         "0",
-        "1"
-      ]
+        "1",
+        "2"
+      ],
+      "setting": {
+        "space": 0
+      }
     },
     "layout_191": {
       "content": {
@@ -4696,6 +4743,28 @@
     },
     "layout_205": {
       "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_168",
+          "bbox": {
+            "left": "18.4%",
+            "right": "16.2%",
+            "top": "94.5%",
+            "bottom": "0.0%",
+            "width": "65.4%",
+            "height": "5.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
         "6": {
           "type": "WIDGET",
           "widgetId": "widget_21",
@@ -4745,6 +4814,7 @@
       "label": "Map FixedLayout",
       "order": [
         "6",
+        "0",
         "7"
       ]
     },
@@ -4755,9 +4825,9 @@
           "widgetId": "widget_176",
           "bbox": {
             "left": "94.4%",
-            "right": "1.7%",
-            "top": "73.5%",
-            "bottom": "8.9%",
+            "right": "3.00%",
+            "top": "73.8%",
+            "bottom": "6.00%",
             "width": "4.0%",
             "height": "17.6%"
           },
@@ -4826,9 +4896,9 @@
       "type": "FIXED",
       "label": "Default",
       "order": [
+        "3",
         "1",
-        "2",
-        "3"
+        "2"
       ]
     },
     "layout_207": {
@@ -5103,6 +5173,19 @@
               "height": "AUTO"
             }
           }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_256",
+          "bbox": {
+            "width": "220px",
+            "height": "50px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
         }
       },
       "type": "COLUMN",
@@ -5110,8 +5193,12 @@
       "order": [
         "0",
         "2",
-        "1"
-      ]
+        "1",
+        "3"
+      ],
+      "setting": {
+        "space": 0
+      }
     },
     "layout_214": {
       "content": {
@@ -5285,8 +5372,13 @@
           "type": "WIDGET",
           "widgetId": "widget_27",
           "bbox": {
-            "width": "300px",
-            "height": "41px"
+            "width": "580px",
+            "height": 36
+          },
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            }
           }
         },
         "1": {
@@ -5419,13 +5511,53 @@
           }
         }
       }
+    },
+    "layout_223": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_19",
+          "bbox": {
+            "width": "264px",
+            "height": "36px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_245",
+          "bbox": {
+            "width": "120.00px",
+            "height": "35px"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "CUSTOM"
+            }
+          }
+        }
+      },
+      "type": "FLEX_ROW",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ],
+      "setting": {
+        "justifyContent": "space-between"
+      }
     }
   },
   "exbVersion": "1.21.0",
   "mainSizeMode": "LARGE",
   "theme": "themes/default/",
   "forBuilderAttributes": {
-    "lockLayout": false
+    "lockLayout": false,
+    "viewPortSize": {}
   },
   "template": "blankfullscreen",
   "widgets": {
@@ -5462,7 +5594,6 @@
       "label": "Title Text",
       "config": {
         "text": "<h1><strong style=\"font-size: 30px;\">﻿WUI Fire Property Awareness Explorer</strong></h1>",
-        "placeholder": "<h1><strong>Double click to edit text</strong></h1>",
         "style": {
           "wrap": true
         }
@@ -5845,7 +5976,6 @@
       "label": "Address Text",
       "config": {
         "text": "<p><strong>Address</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -6493,7 +6623,8 @@
         }
       ],
       "useDataSources": [],
-      "inControllerUx": "offPanel"
+      "inControllerUx": "offPanel",
+      "a11yLabel": ""
     },
     "widget_19": {
       "uri": "widgets/common/text/",
@@ -6501,7 +6632,6 @@
       "label": "Find Your Property",
       "config": {
         "text": "<h2 style=\"line-height: 1;\"><strong style=\"color: rgb(255, 255, 255); font-size: 24px;\"> Find Your Property</strong></h2>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#ffffff"
@@ -6539,7 +6669,6 @@
       "label": "Text",
       "config": {
         "text": "<h2 style=\"line-height: 1;\"><strong style=\"font-size: 24px; color: rgb(255, 255, 255);\"> Understand Risks</strong></h2>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#ffffff"
@@ -6556,10 +6685,10 @@
         },
         "borderRadius": {
           "number": [
-            4,
-            4,
-            4,
-            4
+            5,
+            5,
+            5,
+            5
           ],
           "unit": "px"
         },
@@ -6777,7 +6906,8 @@
           "canHome": true,
           "canSearch": false,
           "canNavigation": true,
-          "canLayers": false
+          "canLayers": false,
+          "canMeasure": true
         },
         "isUseCustomMapState": true,
         "initialMapDataSourceID": "dataSource_1",
@@ -6808,12 +6938,48 @@
           "viewType": "2d"
         },
         "scaleRange": null,
-        "layoutIndex": 1,
+        "layoutIndex": "custom-layout",
         "disablePopUp": true,
         "showPopupUponSelection": false,
         "popupDockPosition": "",
         "selectionHighlightColor": "#dfdf3c",
-        "selectionHighlightHaloColor": "#000000"
+        "selectionHighlightHaloColor": "#000000",
+        "preLayoutIndex": 0,
+        "customLayoutPlacement": {
+          "leftTop": {
+            "isCornerHorizontal": false,
+            "cornerGroupChildren": [
+              "Zoom"
+            ],
+            "horizontalGroupChildren": [],
+            "verticalGroupChildren": [
+              "Home",
+              "Navigation"
+            ]
+          },
+          "rightTop": {
+            "isCornerHorizontal": false,
+            "cornerGroupChildren": [
+              "Measure"
+            ],
+            "horizontalGroupChildren": [],
+            "verticalGroupChildren": []
+          },
+          "rightBottom": {
+            "isCornerHorizontal": true,
+            "cornerGroupChildren": [
+              "ClearActionData"
+            ],
+            "horizontalGroupChildren": [],
+            "verticalGroupChildren": []
+          },
+          "leftBottom": {
+            "isCornerHorizontal": false,
+            "cornerGroupChildren": [],
+            "horizontalGroupChildren": [],
+            "verticalGroupChildren": []
+          }
+        }
       },
       "id": "widget_25",
       "layouts": {
@@ -6829,7 +6995,18 @@
           "mainDataSourceId": "dataSource_1"
         }
       ],
-      "enableDataAction": false
+      "enableDataAction": false,
+      "style": {
+        "borderRadius": {
+          "number": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "unit": "px"
+        }
+      }
     },
     "widget_26": {
       "uri": "widgets/arcgis/arcgis-map/",
@@ -6972,7 +7149,6 @@
       "label": "Assess Your Property Text",
       "config": {
         "text": "<h2 style=\"line-height: 1;\"><strong style=\"font-size: 24px; color: rgb(255, 255, 255);\"> Assess Your Property</strong></h2>",
-        "placeholder": "<h2><strong>Double click to edit text</strong></h2>",
         "style": {
           "wrap": true,
           "color": "#ffffff"
@@ -7112,7 +7288,6 @@
       "label": "Text 2",
       "config": {
         "text": "<h2><strong>Data and Methodology</strong></h2>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -7194,8 +7369,7 @@
       "version": "1.21.0",
       "label": "Text 3",
       "config": {
-        "text": "<p><strong><u>Included Applications:</u></strong></p><p><span style=''>1. </span><a href='' target='' style='' rel='nofollow ugc'>WUI Fire Property Awareness Viewer</a></p><p><br /></p><p><strong><u>Included Maps:</u></strong></p><p><span style=''>1. </span><a href='' target='' style='' rel='nofollow ugc'>Property Awareness WUI</a></p><p><span style=''>2.</span><a href='' target='' style='' rel='nofollow ugc'> Property Awareness Imagery</a></p><p><br /></p><p><strong><u>Data Layers Used:</u></strong></p><p><span style=''>1. </span><a href='' target='' style='' rel='nofollow ugc'>WUI Structure V2</a></p><p><span style=''>2. </span><a href='' target='' style='' rel='nofollow ugc'>Structure Centroids V2</a></p><p><span style=''>3. </span><a href='' target='' style='' rel='nofollow ugc'>WUI Wildlands and WUI</a></p><p><br /></p><p><strong><u>Data Sources Used:</u></strong></p><p><strong>Overture Buildings</strong></p><p style=''><span style=''>The Overture Maps building’s theme describes human-made structures with roofs or interior spaces that are permanently or semi-permanently in one place. The theme includes two feature types: </span><strong>building</strong><span style=''> and </span><strong>building_part</strong><span style=''>. The geometry of a building is expected to be the most outer footprint—roofprint if traced from satellite or aerial imagery—of a building. Buildings have a boolean attribute has_parts that describes whether there are any associated building parts. A </span><strong>building_part</strong><span style=''> is a single part of a building and may share the same properties as buildings. It is associated with a parent building via a building_id.</span></p><p style=''><span style=''>The Overture buildings dataset is a combination of several open building datasets, including contributions from OpenStreetMap, Esri Community Maps, Google Open Buildings, and Microsoft ML-derived roof prints. This dataset is available on Amazon S3 and Microsoft Azure Blob Storage, and it is distributed as GeoParquet, a column-oriented spatial data format optimized for cloud-native queries.</span></p><p style=''><br /></p><p><strong>Sentinel-2 Land Use/Land Cover (LULC)</strong></p><p style=''><span style=''>The Sentinel-2 Land Use/Land Cover (LULC) data is derived from ESA Sentinel-2 imagery at a 10-meter resolution. This data provides a global map of land use and land cover, produced by Impact Observatory, Microsoft, and Esri. The LULC data is generated using a deep learning AI land classification model, trained with billions of human-labeled image pixels from the National Geographic Society. The model processes over 400,000 Earth observations per year to produce LULC predictions for nine classes, including water, trees, flooded vegetation, crops, built areas, bare ground, snow/ice, clouds, and rangeland. These categories were lumped into “Wildland” and “Non-Wildland”.</span></p><p style=''><span style=''>The Sentinel-2 LULC data is useful for various applications, such as conservation planning, food security, and hydrologic modeling. It allows users to visualize land use and land cover anywhere on Earth and can be used in analyses that require LULC input. The data is available for download and can be used in tools like ArcGIS for further analysis.</span></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<p><strong><u>Included Maps:</u></strong></p><p>1. <a href=\"https://fema.maps.arcgis.com/home/item.html?id=00bacc7c1b7742cfbd5022e77cd6c7b6#overview\" target=\"_blank\" data-uniqueid=\"707cbf72_0a46_e332_8f1c_7b8b450edba5\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Ffema.maps.arcgis.com%2Fhome%2Fitem.html%3Fid%3D00bacc7c1b7742cfbd5022e77cd6c7b6%23overview%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\">Property Awareness WUI</a></p><p>2.<a href=\"https://fema.maps.arcgis.com/home/item.html?id=efc0c5bd8b30453c9dfa046cca0d8ced#overview\" target=\"_blank\" data-uniqueid=\"a1b0d276_788b_d452_6b88_24bf73bbf01a\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Ffema.maps.arcgis.com%2Fhome%2Fitem.html%3Fid%3Defc0c5bd8b30453c9dfa046cca0d8ced%23overview%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22expression%22%3Anull%7D\"> Property Awareness Imagery</a></p><p><br></p><p><strong><u>Data Layers Used:</u></strong></p><p>1. <a href=\"https://fema.maps.arcgis.com/home/item.html?id=e0a5828e500a48b88ea6eecd2f17802c#overview\" target=\"_blank\" data-uniqueid=\"98fa2054_8ef3_e911_5e3d_1a53becaf112\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Ffema.maps.arcgis.com%2Fhome%2Fitem.html%3Fid%3De0a5828e500a48b88ea6eecd2f17802c%23overview%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\">WUI Structure V2</a></p><p>2. <a href=\"https://fema.maps.arcgis.com/home/item.html?id=9076cb58d4f44e68ae58de2f74dd3548#overview\" target=\"_blank\" data-uniqueid=\"923caf44_69a2_1087_66a1_d32442f8843e\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Ffema.maps.arcgis.com%2Fhome%2Fitem.html%3Fid%3D9076cb58d4f44e68ae58de2f74dd3548%23overview%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\">Structure Centroids V2</a></p><p>3. <a href=\"https://fema.maps.arcgis.com/home/item.html?id=0ed92aa65c704bf5899eb86cbf9ff21d#overview\" target=\"_blank\" data-uniqueid=\"2c55c58a_305a_b3fb_80f9_516a2004188c\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Ffema.maps.arcgis.com%2Fhome%2Fitem.html%3Fid%3D0ed92aa65c704bf5899eb86cbf9ff21d%23overview%22%2C%22expression%22%3Anull%7D\">USA Wildlands and WUI Vector Tiles V2</a></p><p><br></p><p><strong><u>Data Sources Used:</u></strong></p><p><strong>Overture Buildings</strong></p><p>The Overture Maps building’s theme describes human-made structures with roofs or interior spaces that are permanently or semi-permanently in one place. The theme includes two feature types: <strong>building</strong> and <strong>building_part</strong>. The geometry of a building is expected to be the most outer footprint—roofprint if traced from satellite or aerial imagery—of a building. Buildings have a boolean attribute has_parts that describes whether there are any associated building parts. A <strong>building_part</strong> is a single part of a building and may share the same properties as buildings. It is associated with a parent building via a building_id.</p><p>The Overture buildings dataset is a combination of several open building datasets, including contributions from OpenStreetMap, Esri Community Maps, Google Open Buildings, and Microsoft ML-derived roof prints. This dataset is available on Amazon S3 and Microsoft Azure Blob Storage, and it is distributed as GeoParquet, a column-oriented spatial data format optimized for cloud-native queries.</p><p><br></p><p><strong>Sentinel-2 Land Use/Land Cover (LULC)</strong></p><p>The Sentinel-2 Land Use/Land Cover (LULC) data is derived from ESA Sentinel-2 imagery at a 10-meter resolution. This data provides a global map of land use and land cover, produced by Impact Observatory, Microsoft, and Esri. The LULC data is generated using a deep learning AI land classification model, trained with billions of human-labeled image pixels from the National Geographic Society. The model processes over 400,000 Earth observations per year to produce LULC predictions for nine classes, including water, trees, flooded vegetation, crops, built areas, bare ground, snow/ice, clouds, and rangeland. These categories were lumped into “Wildland” and “Non-Wildland”.</p><p>The Sentinel-2 LULC data is useful for various applications, such as conservation planning, food security, and hydrologic modeling. It allows users to visualize land use and land cover anywhere on Earth and can be used in analyses that require LULC input. The data is available for download and can be used in tools like ArcGIS for further analysis.</p>",
         "style": {
           "wrap": true
         }
@@ -7261,7 +7435,6 @@
       "label": "Text 4",
       "config": {
         "text": "<h2><strong>Application Guidelines﻿</strong></h2>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -7365,8 +7538,7 @@
       "version": "1.21.0",
       "label": "Text 5",
       "config": {
-        "text": "<h2>Application Description</h2><p><span style=\"font-size: 16px;\">This application allows users to view where a specific location is in relation to the Wildland Urban Interface.&nbsp;Once the application is open, there is a search menu in the top left corner of the application. Addresses entered here will ONLY search areas within the United States or US Territories (Puerto Rico, US Virgin Islands, Guam, Marshall Islands, and American Samoa).</span></p><p><span style=\"font-size: 16px;\">Within the Imagery map, there is a Measure option on the top left of the map. This option allows users to measure distances between items on the web map.</span></p><p><br></p><h4><strong>Find Your Property</strong></h4><p><span style=\"font-size: 16px;\">This section provides a search bar that allows users to search locations within US states and territories.&nbsp;No addresses outside these locations will return results (i.e. you cannot search for Hong Kong and results appear in the search widget).</span></p><p><img src=\"\" alt=\"\">&nbsp;</p><h4><strong>Understand Risks</strong></h4><p><span style=\"font-size: 16px;\">After an area is searched in the “Find Your Property” widget, the user will be able to view the Distance to Wildland, Structure Proximity, and Structure Density.&nbsp;These variables combined will give property owners a relative idea of how their property will appear based on USFA recommendations on the three categories. In addition to the three categories, users are also given information on where their property falls in relation to the Wildland Urban Interface.</span></p><p><img src=\"\" alt=\"\">&nbsp;</p><h4><strong>Surrounding Wildland-Urban Interface WUI Relation Map</strong></h4><p><span style=\"font-size: 16px;\">This map provides a detailed property view in relation to the wildland. Overture structures in the map feed the information displayed in the left panel of the application.</span></p><p><img alt=\"\" src=\"\">&nbsp;</p><h5><strong>Imagery Map</strong></h5><p><span style=\"font-size: 16px;\">This map provides a visual representation of properties based on the searched address.&nbsp;In addition to a visual of the area, this map also has a measuring tool available to measure features in and around the map, giving the user ideas of distances to features in relation to their property.</span></p><p><img alt=\"\" src=\"\">&nbsp;</p><p><br></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<h2><span style=\"font-size: 20px;\">Application Description</span></h2><p><span style=\"font-size: 13px;\">This application allows users to view where a specific location is in relation to the Wildland Urban Interface.&nbsp;Once the application is open, there is a search menu in the top left corner of the application. Addresses entered here will ONLY search areas within the United States or US Territories (Puerto Rico, US Virgin Islands, Guam, Marshall Islands, and American Samoa).</span></p><p><span style=\"font-size: 13px;\">Within the Imagery map, there is a Measure option on the top left of the map. This option allows users to measure distances between items on the web map.</span></p><p><br></p><h4><strong style=\"font-size: 16px;\">Find Your Property</strong></h4><p><span style=\"font-size: 13px;\">This section provides a search bar that allows users to search locations within US states and territories.&nbsp;No addresses outside these locations will return results (i.e. you cannot search for Hong Kong and results appear in the search widget).</span></p><p><img src=\"\" alt=\"\">&nbsp;</p><h4><strong style=\"font-size: 16px;\">Understand Risks</strong></h4><h5><span style=\"font-size: 14px;\">Know Your Zone</span></h5><p><span style=\"font-size: 13px;\">After an area is searched in the “Find Your Property” widget, the user will be able to view the Distance to Wildland, Structure Proximity, and Structure Density.&nbsp;These variables combined will give property owners a relative idea of how their property will appear based on USFA recommendations on the three categories. In addition to the three categories, users are also given information on where their property falls in relation to the Wildland Urban Interface.</span></p><h5><span style=\"font-size: 14px;\"><img src=\"\" alt=\"\">Surrounding Wildland-Urban Interface WUI Relation Map</span></h5><p><span style=\"font-size: 13px;\">This map provides a detailed property view in relation to the wildland. Overture structures in the map feed the information displayed in the left panel of the application.</span></p><p><img src=\"\" alt=\"\">&nbsp;</p><h4><strong style=\"font-size: 16px;\">Assess Your Property</strong></h4><h5><span style=\"font-size: 14px;\">Imagery Map</span></h5><p><span style=\"font-size: 13px;\">This map provides a visual representation of properties based on the searched address.&nbsp;In addition to a visual of the area, this map also displays a visual buffer, giving the user insight on distances to features in relation to their property. The buffers visualize </span><a href=\"https://www.usfa.fema.gov/wui/communities/take-action.html\" target=\"_blank\" data-uniqueid=\"a5f8e6e2_18f2_d553_3a71_ffa3971b1c61\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Ftake-action.html%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 13px;\">defensible zones</a><span style=\"font-size: 13px;\"> to encourage what can be done to make a property more fire adapted. </span></p><p><img src=\"\" alt=\"\">&nbsp;</p>",
         "style": {
           "wrap": true
         }
@@ -7518,7 +7690,6 @@
       "label": "Text 8",
       "config": {
         "text": "<h1><strong style=\"font-size: 22px;\">Resource Links</strong></h1>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -7622,8 +7793,7 @@
       "version": "1.21.0",
       "label": "Text 9",
       "config": {
-        "text": "<h4>Application Resources</h4><p><a href=\"dialog_7\" target=\"_self\" data-uniqueid=\"1c8b3b8b_85f9_634b_816d_d8d500b8d1ba\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22DIALOG%22%2C%22value%22%3A%22dialog_7%22%7D\">Data and Methodology Window</a></p><p><a href=\"dialog_6\" target=\"_self\" data-uniqueid=\"69debf90_96ef_55e0_b02d_1ea857e21758\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22DIALOG%22%2C%22value%22%3A%22dialog_6%22%7D\">Application Guidelines Window</a></p><p><a href=\"\" target=\"\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">User Guide</a> (coming soon)</p><p><br></p><h4>Community Resources</h4><p>&nbsp;<a href=\"https://www.usfa.fema.gov/wui/communities/take-action.html\" target=\"_blank\" data-uniqueid=\"716472bc_d4fa_4ae9_534d_021fa005a82f\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Ftake-action.html%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\">Take Action (fema.gov)</a></p><p><a href=\"https://www.usfa.fema.gov/wui/communities/action-plan.html\" target=\"_blank\" data-uniqueid=\"4fb71c7b_0958_dd82_54a1_edea365409f1\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Faction-plan.html%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\">&nbsp;With the Community (fema.gov)</a></p><p>&nbsp;</p>",
-        "placeholder": "Double click to edit text",
+        "text": "<h4>Application Resources</h4><p><a href=\"dialog_7\" target=\"_self\" data-uniqueid=\"1c8b3b8b_85f9_634b_816d_d8d500b8d1ba\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22DIALOG%22%2C%22value%22%3A%22dialog_7%22%7D\">Data and Methodology Window</a></p><p><a href=\"dialog_6\" target=\"_self\" data-uniqueid=\"69debf90_96ef_55e0_b02d_1ea857e21758\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22DIALOG%22%2C%22value%22%3A%22dialog_6%22%7D\">Application Guidelines Window</a></p><p>User Guide (coming soon)</p><p><br></p><h4>Community Resources</h4><p>&nbsp;<a href=\"https://www.usfa.fema.gov/wui/communities/take-action.html\" target=\"_blank\" data-uniqueid=\"716472bc_d4fa_4ae9_534d_021fa005a82f\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Ftake-action.html%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\">Take Action (fema.gov)</a></p><p><a href=\"https://www.usfa.fema.gov/wui/communities/action-plan.html\" target=\"_blank\" data-uniqueid=\"4fb71c7b_0958_dd82_54a1_edea365409f1\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Faction-plan.html%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\">&nbsp;With the Community (fema.gov)</a></p><p>&nbsp;</p>",
         "style": {
           "wrap": true
         }
@@ -7757,7 +7927,6 @@
       "label": "Text 10",
       "config": {
         "text": "<h1 style=\"line-height: 1;\"><strong style=\"font-size: 22px;\">Resource Links</strong></h1>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -7861,8 +8030,7 @@
       "version": "1.21.0",
       "label": "Text 11",
       "config": {
-        "text": "<h4><span style=\"font-size: 18px;\">Application Resources</span></h4><p><a href=\"dialog_8\" target=\"_self\" data-uniqueid=\"8f837323_bb5a_bcaa_6230_15f015c8ac72\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22DIALOG%22%2C%22value%22%3A%22dialog_8%22%7D\" style=\"font-size: 16px;\">Data and Methodology Window</a></p><p><a href=\"dialog_9\" target=\"_self\" data-uniqueid=\"a781a98c_8f1c_6370_c35b_2f42351f31c7\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22DIALOG%22%2C%22value%22%3A%22dialog_9%22%7D\" style=\"font-size: 16px;\">Application Guidelines Window</a></p><p><a href=\"\" target=\"\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 16px;\">User Guide</a><span style=\"font-size: 16px;\"> (coming soon)</span></p><p><br></p><h4><span style=\"font-size: 18px;\">Community Resources</span></h4><p><span style=\"font-size: 13px;\">&nbsp;</span><a href=\"https://www.usfa.fema.gov/wui/communities/take-action.html\" target=\"_blank\" data-uniqueid=\"765d9b2e_43e4_25c3_2d81_6bd2a1355cc1\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Ftake-action.html%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-size: 16px;\">Take Action (fema.gov)</a></p><p><span style=\"font-size: 16px;\">&nbsp;</span><a href=\"https://www.usfa.fema.gov/wui/communities/action-plan.html\" target=\"_blank\" data-uniqueid=\"df13c32e_43f4_2f99_1ba0_a7a994f2abe2\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Faction-plan.html%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-size: 16px;\">With the Community (fema.gov)</a></p><p>&nbsp;</p>",
-        "placeholder": "Double click to edit text",
+        "text": "<h4><span style=\"font-size: 18px;\">Application Resources</span></h4><p><a href=\"dialog_8\" target=\"_self\" data-uniqueid=\"8f837323_bb5a_bcaa_6230_15f015c8ac72\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22DIALOG%22%2C%22value%22%3A%22dialog_8%22%7D\" style=\"font-size: 14px;\">Data and Methodology Window</a></p><p><a href=\"dialog_9\" target=\"_self\" data-uniqueid=\"a781a98c_8f1c_6370_c35b_2f42351f31c7\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22DIALOG%22%2C%22value%22%3A%22dialog_9%22%7D\" style=\"font-size: 14px;\">Application Guidelines Window</a></p><p><span style=\"font-size: 14px;\">User Guide (coming soon)</span></p><p><br></p><h4><span style=\"font-size: 18px;\">Community Resources</span></h4><p><span style=\"font-size: 14px;\">&nbsp;</span><a href=\"https://www.usfa.fema.gov/wui/communities/take-action.html\" target=\"_blank\" data-uniqueid=\"765d9b2e_43e4_25c3_2d81_6bd2a1355cc1\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Ftake-action.html%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-size: 14px;\">Take Action (fema.gov)</a></p><p><span style=\"font-size: 14px;\">&nbsp;</span><a href=\"https://www.usfa.fema.gov/wui/communities/action-plan.html\" target=\"_blank\" data-uniqueid=\"df13c32e_43f4_2f99_1ba0_a7a994f2abe2\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Faction-plan.html%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-size: 14px;\">With the Community (fema.gov)</a></p><p>&nbsp;</p>",
         "style": {
           "wrap": true
         }
@@ -8071,7 +8239,6 @@
       "label": "Text 12",
       "config": {
         "text": "<p><strong style=\"font-size: 22px;\">Application Guidelines﻿</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -8175,8 +8342,7 @@
       "version": "1.21.0",
       "label": "Text 13",
       "config": {
-        "text": "<p>﻿<strong><u>Included Applications:</u></strong></p><p><span style=''>1. </span><a href='' target='' style='' rel='nofollow ugc'>WUI Fire Property Awareness Viewer</a></p><p><br /></p><p><strong><u>Included Maps:</u></strong></p><p><span style=''>1. </span><a href='' target='' style='' rel='nofollow ugc'>WUI Individual Map</a></p><p><span style=''>2.</span><a href='' target='' style='' rel='nofollow ugc'> WUI Individual Imagery</a></p><p><br /></p><p><strong><u>Data Layers Used:</u></strong></p><p><span style=''>1. </span><a href='' target='' style='' rel='nofollow ugc'>Structure_Centroids_V2</a></p><p><span style=''>2. </span><a href='' target='' style='' rel='nofollow ugc'>WUI Wildlands and WUI</a></p><p><br /></p><p><strong><u>Data Sources Used:</u></strong></p><p><strong>Overture Buildings</strong></p><p style=''><span style=''>The Overture Maps building’s theme describes human-made structures with roofs or interior spaces that are permanently or semi-permanently in one place. The theme includes two feature types: </span><strong>building</strong><span style=''> and </span><strong>building_part</strong><span style=''>. The geometry of a building is expected to be the most outer footprint—roofprint if traced from satellite or aerial imagery—of a building. Buildings have a boolean attribute has_parts that describes whether there are any associated building parts. A </span><strong>building_part</strong><span style=''> is a single part of a building and may share the same properties as buildings. It is associated with a parent building via a building_id.</span></p><p style=''><span style=''>The Overture buildings dataset is a combination of several open building datasets, including contributions from OpenStreetMap, Esri Community Maps, Google Open Buildings, and Microsoft ML-derived roof prints. This dataset is available on Amazon S3 and Microsoft Azure Blob Storage, and it is distributed as GeoParquet, a column-oriented spatial data format optimized for cloud-native queries.</span></p><p style=''><br /></p><p><strong>Sentinel-2 Land Use/Land Cover (LULC)</strong></p><p style=''><span style=''>The Sentinel-2 Land Use/Land Cover (LULC) data is derived from ESA Sentinel-2 imagery at a 10-meter resolution. This data provides a global map of land use and land cover, produced by Impact Observatory, Microsoft, and Esri. The LULC data is generated using a deep learning AI land classification model, trained with billions of human-labeled image pixels from the National Geographic Society. The model processes over 400,000 Earth observations per year to produce LULC predictions for nine classes, including water, trees, flooded vegetation, crops, built areas, bare ground, snow/ice, clouds, and rangeland. These categories were lumped into “Wildland” and “Non-Wildland”.</span></p><p style=''><span style=''>The Sentinel-2 LULC data is useful for various applications, such as conservation planning, food security, and hydrologic modeling. It allows users to visualize land use and land cover anywhere on Earth and can be used in analyses that require LULC input. The data is available for download and can be used in tools like ArcGIS for further analysis.</span></p><p><br /></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<h4><strong>Application Description</strong></h4><p><span style=\"font-size: 13px;\">This application allows users to view where a specific location is in relation to the Wildland Urban Interface.&nbsp;Once the application is open, there is a search menu in the top left corner of the application. Addresses entered here will ONLY search areas within the United States or US Territories (Puerto Rico, US Virgin Islands, Guam, Marshall Islands, and American Samoa).</span></p><p><span style=\"font-size: 13px;\">Within the Imagery map, there is a Measure option on the top left of the map. This option allows users to measure distances between items on the web map.</span></p><p><br></p><h4><strong>Find Your Property</strong></h4><p><span style=\"font-size: 13px;\">This section provides a search bar that allows users to search locations within US states and territories.&nbsp;No addresses outside these locations will return results (i.e. you cannot search for Hong Kong and results appear in the search widget).</span></p><p><br></p><h4><img src=\"\" alt=\"\"><strong>Understand Risks</strong></h4><h5><span style=\"font-size: 14px;\">Know Your Zone</span></h5><p><span style=\"font-size: 13px;\">After an area is searched in the “Find Your Property” widget, the user will be able to view the gauge cluster containing Distance to Wildland, Structure Proximity, and Structure Density. These variables combined will provide a relative idea of how the property will appear based on USFA recommendations on the three categories. In addition to the three categories, users are also given information on where the property falls in relation to the Wildland Urban Interface.</span></p><p><br></p><h5><span style=\"font-size: 14px;\"><img src=\"\" alt=\"\">Surrounding Wildland-Urban Interface WUI Relation Map</span></h5><p><span style=\"font-size: 13px;\">This map provides a detailed property view in relation to the wildland. Overture structures in the map feed the information displayed in the left panel of the application.</span></p><h4><img src=\"\" alt=\"\"></h4><h4><strong>Assess Your Property</strong></h4><h5><span style=\"font-size: 14px;\">Imagery Map</span></h5><p><span style=\"font-size: 13px;\">This map provides a visual representation of properties based on the searched address.&nbsp;In addition to a visual of the area, this map also displays a visual buffer, giving the user insight on distances to features in relation to their property. The buffers visualize </span><a href=\"https://www.usfa.fema.gov/wui/communities/take-action.html\" target=\"_blank\" data-uniqueid=\"a5f8e6e2_18f2_d553_3a71_ffa3971b1c61\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Ftake-action.html%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 13px;\">defensible zones</a><span style=\"font-size: 13px;\"> to encourage what can be done to make a property more fire adapted. </span></p>",
         "style": {
           "wrap": true
         }
@@ -8253,7 +8419,6 @@
       "label": "Text 14",
       "config": {
         "text": "<p><strong style=\"font-size: 22px;\">Data and Methodology</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -8357,8 +8522,7 @@
       "version": "1.21.0",
       "label": "Text 15",
       "config": {
-        "text": "<p>﻿<strong><u>Included Applications:</u></strong></p><p><span style=''>1. </span><a href='' target='' style='' rel='nofollow ugc'>WUI Fire Property Awareness Viewer</a></p><p><br /></p><p><strong><u>Included Maps:</u></strong></p><p><span style=''>1. </span><a href='' target='' style='' rel='nofollow ugc'>WUI Individual Map</a></p><p><span style=''>2.</span><a href='' target='' style='' rel='nofollow ugc'> WUI Individual Imagery</a></p><p><br /></p><p><strong><u>Data Layers Used:</u></strong></p><p><span style=''>1. </span><a href='' target='' style='' rel='nofollow ugc'>Structure_Centroids_V2</a></p><p><span style=''>2. </span><a href='' target='' style='' rel='nofollow ugc'>WUI Wildlands and WUI</a></p><p><br /></p><p><strong><u>Data Sources Used:</u></strong></p><p><strong>Overture Buildings</strong></p><p style=''><span style=''>The Overture Maps building’s theme describes human-made structures with roofs or interior spaces that are permanently or semi-permanently in one place. The theme includes two feature types: </span><strong>building</strong><span style=''> and </span><strong>building_part</strong><span style=''>. The geometry of a building is expected to be the most outer footprint—roofprint if traced from satellite or aerial imagery—of a building. Buildings have a boolean attribute has_parts that describes whether there are any associated building parts. A </span><strong>building_part</strong><span style=''> is a single part of a building and may share the same properties as buildings. It is associated with a parent building via a building_id.</span></p><p style=''><span style=''>The Overture buildings dataset is a combination of several open building datasets, including contributions from OpenStreetMap, Esri Community Maps, Google Open Buildings, and Microsoft ML-derived roof prints. This dataset is available on Amazon S3 and Microsoft Azure Blob Storage, and it is distributed as GeoParquet, a column-oriented spatial data format optimized for cloud-native queries.</span></p><p style=''><br /></p><p><strong>Sentinel-2 Land Use/Land Cover (LULC)</strong></p><p style=''><span style=''>The Sentinel-2 Land Use/Land Cover (LULC) data is derived from ESA Sentinel-2 imagery at a 10-meter resolution. This data provides a global map of land use and land cover, produced by Impact Observatory, Microsoft, and Esri. The LULC data is generated using a deep learning AI land classification model, trained with billions of human-labeled image pixels from the National Geographic Society. The model processes over 400,000 Earth observations per year to produce LULC predictions for nine classes, including water, trees, flooded vegetation, crops, built areas, bare ground, snow/ice, clouds, and rangeland. These categories were lumped into “Wildland” and “Non-Wildland”.</span></p><p style=''><span style=''>The Sentinel-2 LULC data is useful for various applications, such as conservation planning, food security, and hydrologic modeling. It allows users to visualize land use and land cover anywhere on Earth and can be used in analyses that require LULC input. The data is available for download and can be used in tools like ArcGIS for further analysis.</span></p><p><br /></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<p><strong><u>Included Maps:</u></strong></p><p>1. <a href=\"https://fema.maps.arcgis.com/home/item.html?id=00bacc7c1b7742cfbd5022e77cd6c7b6#overview\" target=\"_blank\" data-uniqueid=\"707cbf72_0a46_e332_8f1c_7b8b450edba5\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Ffema.maps.arcgis.com%2Fhome%2Fitem.html%3Fid%3D00bacc7c1b7742cfbd5022e77cd6c7b6%23overview%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\">Property Awareness WUI</a></p><p>2.<a href=\"https://fema.maps.arcgis.com/home/item.html?id=efc0c5bd8b30453c9dfa046cca0d8ced#overview\" target=\"_blank\" data-uniqueid=\"a1b0d276_788b_d452_6b88_24bf73bbf01a\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Ffema.maps.arcgis.com%2Fhome%2Fitem.html%3Fid%3Defc0c5bd8b30453c9dfa046cca0d8ced%23overview%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22expression%22%3Anull%7D\"> Property Awareness Imagery</a></p><p><br></p><p><strong><u>Data Layers Used:</u></strong></p><p>1. <a href=\"https://fema.maps.arcgis.com/home/item.html?id=e0a5828e500a48b88ea6eecd2f17802c#overview\" target=\"_blank\" data-uniqueid=\"98fa2054_8ef3_e911_5e3d_1a53becaf112\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Ffema.maps.arcgis.com%2Fhome%2Fitem.html%3Fid%3De0a5828e500a48b88ea6eecd2f17802c%23overview%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\">WUI Structure V2</a></p><p>2. <a href=\"https://fema.maps.arcgis.com/home/item.html?id=9076cb58d4f44e68ae58de2f74dd3548#overview\" target=\"_blank\" data-uniqueid=\"923caf44_69a2_1087_66a1_d32442f8843e\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Ffema.maps.arcgis.com%2Fhome%2Fitem.html%3Fid%3D9076cb58d4f44e68ae58de2f74dd3548%23overview%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\">Structure Centroids V2</a></p><p>3. <a href=\"https://fema.maps.arcgis.com/home/item.html?id=0ed92aa65c704bf5899eb86cbf9ff21d#overview\" target=\"_blank\" data-uniqueid=\"2c55c58a_305a_b3fb_80f9_516a2004188c\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Ffema.maps.arcgis.com%2Fhome%2Fitem.html%3Fid%3D0ed92aa65c704bf5899eb86cbf9ff21d%23overview%22%2C%22expression%22%3Anull%7D\">USA Wildlands and WUI Vector Tiles V2</a></p><p><br></p><p><strong><u>Data Sources Used:</u></strong></p><p><strong>Overture Buildings</strong></p><p>The Overture Maps building’s theme describes human-made structures with roofs or interior spaces that are permanently or semi-permanently in one place. The theme includes two feature types: <strong>building</strong> and <strong>building_part</strong>. The geometry of a building is expected to be the most outer footprint—roofprint if traced from satellite or aerial imagery—of a building. Buildings have a boolean attribute has_parts that describes whether there are any associated building parts. A <strong>building_part</strong> is a single part of a building and may share the same properties as buildings. It is associated with a parent building via a building_id.</p><p>The Overture buildings dataset is a combination of several open building datasets, including contributions from OpenStreetMap, Esri Community Maps, Google Open Buildings, and Microsoft ML-derived roof prints. This dataset is available on Amazon S3 and Microsoft Azure Blob Storage, and it is distributed as GeoParquet, a column-oriented spatial data format optimized for cloud-native queries.</p><p><br></p><p><strong>Sentinel-2 Land Use/Land Cover (LULC)</strong></p><p>The Sentinel-2 Land Use/Land Cover (LULC) data is derived from ESA Sentinel-2 imagery at a 10-meter resolution. This data provides a global map of land use and land cover, produced by Impact Observatory, Microsoft, and Esri. The LULC data is generated using a deep learning AI land classification model, trained with billions of human-labeled image pixels from the National Geographic Society. The model processes over 400,000 Earth observations per year to produce LULC predictions for nine classes, including water, trees, flooded vegetation, crops, built areas, bare ground, snow/ice, clouds, and rangeland. These categories were lumped into “Wildland” and “Non-Wildland”.</p><p>The Sentinel-2 LULC data is useful for various applications, such as conservation planning, food security, and hydrologic modeling. It allows users to visualize land use and land cover anywhere on Earth and can be used in analyses that require LULC input. The data is available for download and can be used in tools like ArcGIS for further analysis.</p>",
         "style": {
           "wrap": true
         }
@@ -8424,7 +8588,6 @@
       "label": "Text 16",
       "config": {
         "text": "<p><strong style=\"font-size: 22px;\">Data and Methodology</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -8528,8 +8691,7 @@
       "version": "1.21.0",
       "label": "Text 17",
       "config": {
-        "text": "<p>﻿<strong><u>Included Applications:</u></strong></p><p><span style=''>1. </span><a href='' target='' style='' rel='nofollow ugc'>WUI Fire Property Awareness Viewer</a></p><p><br /></p><p><strong><u>Included Maps:</u></strong></p><p><span style=''>1. </span><a href='' target='' style='' rel='nofollow ugc'>WUI Individual Map</a></p><p><span style=''>2.</span><a href='' target='' style='' rel='nofollow ugc'> WUI Individual Imagery</a></p><p><br /></p><p><strong><u>Data Layers Used:</u></strong></p><p><span style=''>1. </span><a href='' target='' style='' rel='nofollow ugc'>Structure_Centroids_V2</a></p><p><span style=''>2. </span><a href='' target='' style='' rel='nofollow ugc'>WUI Wildlands and WUI</a></p><p><br /></p><p><strong><u>Data Sources Used:</u></strong></p><p><strong>Overture Buildings</strong></p><p style=''><span style=''>The Overture Maps building’s theme describes human-made structures with roofs or interior spaces that are permanently or semi-permanently in one place. The theme includes two feature types: </span><strong>building</strong><span style=''> and </span><strong>building_part</strong><span style=''>. The geometry of a building is expected to be the most outer footprint—roofprint if traced from satellite or aerial imagery—of a building. Buildings have a boolean attribute has_parts that describes whether there are any associated building parts. A </span><strong>building_part</strong><span style=''> is a single part of a building and may share the same properties as buildings. It is associated with a parent building via a building_id.</span></p><p style=''><span style=''>The Overture buildings dataset is a combination of several open building datasets, including contributions from OpenStreetMap, Esri Community Maps, Google Open Buildings, and Microsoft ML-derived roof prints. This dataset is available on Amazon S3 and Microsoft Azure Blob Storage, and it is distributed as GeoParquet, a column-oriented spatial data format optimized for cloud-native queries.</span></p><p style=''><br /></p><p><strong>Sentinel-2 Land Use/Land Cover (LULC)</strong></p><p style=''><span style=''>The Sentinel-2 Land Use/Land Cover (LULC) data is derived from ESA Sentinel-2 imagery at a 10-meter resolution. This data provides a global map of land use and land cover, produced by Impact Observatory, Microsoft, and Esri. The LULC data is generated using a deep learning AI land classification model, trained with billions of human-labeled image pixels from the National Geographic Society. The model processes over 400,000 Earth observations per year to produce LULC predictions for nine classes, including water, trees, flooded vegetation, crops, built areas, bare ground, snow/ice, clouds, and rangeland. These categories were lumped into “Wildland” and “Non-Wildland”.</span></p><p style=''><span style=''>The Sentinel-2 LULC data is useful for various applications, such as conservation planning, food security, and hydrologic modeling. It allows users to visualize land use and land cover anywhere on Earth and can be used in analyses that require LULC input. The data is available for download and can be used in tools like ArcGIS for further analysis.</span></p><p><br /></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<p><strong><u>Included Maps:</u></strong></p><p>1. <a href=\"https://fema.maps.arcgis.com/home/item.html?id=00bacc7c1b7742cfbd5022e77cd6c7b6#overview\" target=\"_blank\" data-uniqueid=\"fb91c913_308b_06e7_1214_dac5a778d744\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Ffema.maps.arcgis.com%2Fhome%2Fitem.html%3Fid%3D00bacc7c1b7742cfbd5022e77cd6c7b6%23overview%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\">WUI Individual Map</a></p><p>2.<a href=\"https://fema.maps.arcgis.com/home/item.html?id=efc0c5bd8b30453c9dfa046cca0d8ced#overview\" target=\"_blank\" data-uniqueid=\"516cfc75_78d3_9f18_0a26_ccb53e0ba137\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Ffema.maps.arcgis.com%2Fhome%2Fitem.html%3Fid%3Defc0c5bd8b30453c9dfa046cca0d8ced%23overview%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\"> WUI Individual Imagery</a></p><p><br></p><p><strong><u>Data Layers Used:</u></strong></p><p>1. <a href=\"https://fema.maps.arcgis.com/home/item.html?id=e0a5828e500a48b88ea6eecd2f17802c#overview\" target=\"_blank\" data-uniqueid=\"98fa2054_8ef3_e911_5e3d_1a53becaf112\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Ffema.maps.arcgis.com%2Fhome%2Fitem.html%3Fid%3De0a5828e500a48b88ea6eecd2f17802c%23overview%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\">WUI Structure V2</a></p><p>2. <a href=\"https://fema.maps.arcgis.com/home/item.html?id=9076cb58d4f44e68ae58de2f74dd3548#overview\" target=\"_blank\" data-uniqueid=\"923caf44_69a2_1087_66a1_d32442f8843e\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Ffema.maps.arcgis.com%2Fhome%2Fitem.html%3Fid%3D9076cb58d4f44e68ae58de2f74dd3548%23overview%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\">Structure Centroids V2</a></p><p>3. <a href=\"https://fema.maps.arcgis.com/home/item.html?id=0ed92aa65c704bf5899eb86cbf9ff21d#overview\" target=\"_blank\" data-uniqueid=\"2c55c58a_305a_b3fb_80f9_516a2004188c\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Ffema.maps.arcgis.com%2Fhome%2Fitem.html%3Fid%3D0ed92aa65c704bf5899eb86cbf9ff21d%23overview%22%2C%22expression%22%3Anull%7D\">USA Wildlands and WUI Vector Tiles V2</a></p><p><br></p><p><strong><u>Data Sources Used:</u></strong></p><p><strong>Overture Buildings</strong></p><p>The Overture Maps building’s theme describes human-made structures with roofs or interior spaces that are permanently or semi-permanently in one place. The theme includes two feature types: <strong>building</strong> and <strong>building_part</strong>. The geometry of a building is expected to be the most outer footprint—roofprint if traced from satellite or aerial imagery—of a building. Buildings have a boolean attribute has_parts that describes whether there are any associated building parts. A <strong>building_part</strong> is a single part of a building and may share the same properties as buildings. It is associated with a parent building via a building_id.</p><p>The Overture buildings dataset is a combination of several open building datasets, including contributions from OpenStreetMap, Esri Community Maps, Google Open Buildings, and Microsoft ML-derived roof prints. This dataset is available on Amazon S3 and Microsoft Azure Blob Storage, and it is distributed as GeoParquet, a column-oriented spatial data format optimized for cloud-native queries.</p><p><br></p><p><strong>Sentinel-2 Land Use/Land Cover (LULC)</strong></p><p>The Sentinel-2 Land Use/Land Cover (LULC) data is derived from ESA Sentinel-2 imagery at a 10-meter resolution. This data provides a global map of land use and land cover, produced by Impact Observatory, Microsoft, and Esri. The LULC data is generated using a deep learning AI land classification model, trained with billions of human-labeled image pixels from the National Geographic Society. The model processes over 400,000 Earth observations per year to produce LULC predictions for nine classes, including water, trees, flooded vegetation, crops, built areas, bare ground, snow/ice, clouds, and rangeland. These categories were lumped into “Wildland” and “Non-Wildland”.</p><p>The Sentinel-2 LULC data is useful for various applications, such as conservation planning, food security, and hydrologic modeling. It allows users to visualize land use and land cover anywhere on Earth and can be used in analyses that require LULC input. The data is available for download and can be used in tools like ArcGIS for further analysis.</p>",
         "style": {
           "wrap": true
         }
@@ -8595,7 +8757,6 @@
       "label": "Text 18",
       "config": {
         "text": "<p><strong style=\"font-size: 22px;\">Application Guidelines﻿</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -8699,8 +8860,7 @@
       "version": "1.21.0",
       "label": "Text 19",
       "config": {
-        "text": "<p>﻿<strong><u>Included Applications:</u></strong></p><p><span style=''>1. </span><a href='' target='' style='' rel='nofollow ugc'>WUI Fire Property Awareness Viewer</a></p><p><br /></p><p><strong><u>Included Maps:</u></strong></p><p><span style=''>1. </span><a href='' target='' style='' rel='nofollow ugc'>WUI Individual Map</a></p><p><span style=''>2.</span><a href='' target='' style='' rel='nofollow ugc'> WUI Individual Imagery</a></p><p><br /></p><p><strong><u>Data Layers Used:</u></strong></p><p><span style=''>1. </span><a href='' target='' style='' rel='nofollow ugc'>Structure_Centroids_V2</a></p><p><span style=''>2. </span><a href='' target='' style='' rel='nofollow ugc'>WUI Wildlands and WUI</a></p><p><br /></p><p><strong><u>Data Sources Used:</u></strong></p><p><strong>Overture Buildings</strong></p><p style=''><span style=''>The Overture Maps building’s theme describes human-made structures with roofs or interior spaces that are permanently or semi-permanently in one place. The theme includes two feature types: </span><strong>building</strong><span style=''> and </span><strong>building_part</strong><span style=''>. The geometry of a building is expected to be the most outer footprint—roofprint if traced from satellite or aerial imagery—of a building. Buildings have a boolean attribute has_parts that describes whether there are any associated building parts. A </span><strong>building_part</strong><span style=''> is a single part of a building and may share the same properties as buildings. It is associated with a parent building via a building_id.</span></p><p style=''><span style=''>The Overture buildings dataset is a combination of several open building datasets, including contributions from OpenStreetMap, Esri Community Maps, Google Open Buildings, and Microsoft ML-derived roof prints. This dataset is available on Amazon S3 and Microsoft Azure Blob Storage, and it is distributed as GeoParquet, a column-oriented spatial data format optimized for cloud-native queries.</span></p><p style=''><br /></p><p><strong>Sentinel-2 Land Use/Land Cover (LULC)</strong></p><p style=''><span style=''>The Sentinel-2 Land Use/Land Cover (LULC) data is derived from ESA Sentinel-2 imagery at a 10-meter resolution. This data provides a global map of land use and land cover, produced by Impact Observatory, Microsoft, and Esri. The LULC data is generated using a deep learning AI land classification model, trained with billions of human-labeled image pixels from the National Geographic Society. The model processes over 400,000 Earth observations per year to produce LULC predictions for nine classes, including water, trees, flooded vegetation, crops, built areas, bare ground, snow/ice, clouds, and rangeland. These categories were lumped into “Wildland” and “Non-Wildland”.</span></p><p style=''><span style=''>The Sentinel-2 LULC data is useful for various applications, such as conservation planning, food security, and hydrologic modeling. It allows users to visualize land use and land cover anywhere on Earth and can be used in analyses that require LULC input. The data is available for download and can be used in tools like ArcGIS for further analysis.</span></p><p><br /></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<h4><strong>Application Description</strong></h4><p><span style=\"font-size: 13px;\">This application allows users to view where a specific location is in relation to the Wildland Urban Interface.&nbsp;Once the application is open, there is a search menu in the top left corner of the application. Addresses entered here will ONLY search areas within the United States or US Territories (Puerto Rico, US Virgin Islands, Guam, Marshall Islands, and American Samoa).</span></p><p><span style=\"font-size: 13px;\">Within the Imagery map, there is a Measure option on the top left of the map. This option allows users to measure distances between items on the web map.</span></p><p><br></p><h4><strong>Find Your Property</strong></h4><p><span style=\"font-size: 13px;\">This section provides a search bar that allows users to search locations within US states and territories.&nbsp;No addresses outside these locations will return results (i.e. you cannot search for Hong Kong and results appear in the search widget).</span></p><p><br></p><h4><img src=\"\" alt=\"\"><strong>Understand Risks</strong></h4><h5><span style=\"font-size: 14px;\">Know Your Zone</span></h5><p><span style=\"font-size: 13px;\">After an area is searched in the “Find Your Property” widget, the user will be able to view the gauge cluster containing Distance to Wildland, Structure Proximity, and Structure Density. These variables combined will provide a relative idea of how the property will appear based on USFA recommendations on the three categories. In addition to the three categories, users are also given information on where the property falls in relation to the Wildland Urban Interface.</span></p><h5><span style=\"font-size: 14px;\"><img src=\"\" alt=\"\">Surrounding Wildland-Urban Interface WUI Relation Map</span></h5><p><span style=\"font-size: 13px;\">This map provides a detailed property view in relation to the wildland. Overture structures in the map feed the information displayed in the left panel of the application.</span></p><h4><img src=\"\" alt=\"\"></h4><h4><strong>Assess Your Property</strong></h4><h5><span style=\"font-size: 14px;\">Imagery Map</span></h5><p><span style=\"font-size: 13px;\">This map provides a visual representation of properties based on the searched address.&nbsp;In addition to a visual of the area, this map also displays a visual buffer, giving the user insight on distances to features in relation to their property. The buffers visualize </span><a href=\"https://www.usfa.fema.gov/wui/communities/take-action.html\" target=\"_blank\" data-uniqueid=\"a5f8e6e2_18f2_d553_3a71_ffa3971b1c61\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Ftake-action.html%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 13px;\">defensible zones</a><span style=\"font-size: 13px;\"> to encourage what can be done to make a property more fire adapted. </span></p>",
         "style": {
           "wrap": true
         }
@@ -9003,7 +9163,6 @@
       "label": "Text 20",
       "config": {
         "text": "<h1><strong style=\"font-size: 30px;\">Resource Links</strong></h1>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -9107,8 +9266,7 @@
       "version": "1.21.0",
       "label": "Text 21",
       "config": {
-        "text": "<h4><span style=\"font-size: 16px;\">Application Resources</span></h4><p><a href=\"dialog_1\" target=\"_self\" data-uniqueid=\"7195e639_fc02_4fcd_c3be_4b7971f78971\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22DIALOG%22%2C%22value%22%3A%22dialog_1%22%7D\" style=\"font-size: 16px;\">Data and Methodology Window</a></p><p><a href=\"dialog_2\" target=\"_self\" data-uniqueid=\"fc81426a_c4f6_1fe5_ebf6_8ae41437d704\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22DIALOG%22%2C%22value%22%3A%22dialog_2%22%7D\" style=\"font-size: 16px;\">Application Guidelines Window</a></p><p><a href=\"\" target=\"\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 16px;\">User Guide</a> (coming soon)</p><p><br></p><h2><span style=\"font-size: 16px;\">Community Resources</span></h2><p><a href=\"https://www.usfa.fema.gov/wui/communities/take-action.html\" target=\"_blank\" data-uniqueid=\"2a37d1b4_8b7c_28fd_ec69_cc19682b4846\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Ftake-action.html%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 16px;\">&nbsp;Take Action (fema.gov)</a></p><p><span style=\"font-size: 16px;\">&nbsp;</span><a href=\"https://www.usfa.fema.gov/wui/communities/action-plan.html\" target=\"_blank\" data-uniqueid=\"d06bbf8e_40b3_8533_af8d_d74e5caf36e3\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Faction-plan.html%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-size: 16px;\">With the Community (fema.gov)</a></p><p><span style=\"font-size: 16px;\">&nbsp;</span></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<h4><span style=\"font-size: 18px;\">Application Resources</span></h4><p><a href=\"dialog_1\" target=\"_self\" data-uniqueid=\"7195e639_fc02_4fcd_c3be_4b7971f78971\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22DIALOG%22%2C%22value%22%3A%22dialog_1%22%7D\" style=\"font-size: 16px;\">Data and Methodology Window</a></p><p><a href=\"dialog_2\" target=\"_self\" data-uniqueid=\"fc81426a_c4f6_1fe5_ebf6_8ae41437d704\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22DIALOG%22%2C%22value%22%3A%22dialog_2%22%7D\" style=\"font-size: 16px;\">Application Guidelines Window</a></p><p><span style=\"font-size: 16px;\">User Guide</span> (coming soon)</p><p><br></p><h2><span style=\"font-size: 18px;\">Community Resources</span></h2><p><a href=\"https://www.usfa.fema.gov/wui/communities/take-action.html\" target=\"_blank\" data-uniqueid=\"2a37d1b4_8b7c_28fd_ec69_cc19682b4846\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Ftake-action.html%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 16px;\">&nbsp;Take Action (fema.gov)</a></p><p><span style=\"font-size: 16px;\">&nbsp;</span><a href=\"https://www.usfa.fema.gov/wui/communities/action-plan.html\" target=\"_blank\" data-uniqueid=\"d06bbf8e_40b3_8533_af8d_d74e5caf36e3\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Faction-plan.html%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-size: 16px;\">With the Community (fema.gov)</a></p><p><span style=\"font-size: 16px;\">&nbsp;</span></p>",
         "style": {
           "wrap": true
         }
@@ -9311,6 +9469,23 @@
       "id": "widget_162",
       "useDataSources": []
     },
+    "widget_168": {
+      "uri": "widgets/defensible-space-fire-buffer/",
+      "version": "1.0.0",
+      "label": "Defensible Space Fire Buffer",
+      "config": {},
+      "id": "widget_168",
+      "useMapWidgetIds": [
+        "widget_26"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_4-19d8d771e48-layer-2",
+          "mainDataSourceId": "dataSource_4-19d8d771e48-layer-2",
+          "rootDataSourceId": "dataSource_4"
+        }
+      ]
+    },
     "widget_169": {
       "uri": "widgets/layout/column/",
       "version": "1.21.0",
@@ -9388,8 +9563,7 @@
       "version": "1.21.0",
       "label": "Text 22",
       "config": {
-        "text": "<p style=\"line-height: 1.7;\"><strong style=\"font-size: 17px; color: rgb(44, 62, 80);\"> Zone 0:</strong><span style=\"font-size: 17px; color: rgb(44, 62, 80);\"> Start closest to your home to be ember-resistant</span></p><p style=\"line-height: 1.7;\"><strong style=\"font-size: 17px; color: rgb(44, 62, 80);\"> Zone 1:</strong><span style=\"font-size: 17px; color: rgb(44, 62, 80);\"> Keep it lean, clean, green within 30 feet</span></p><p style=\"line-height: 1.7;\"><strong style=\"font-size: 17px; color: rgb(44, 62, 80);\"> Zone 2: </strong><span style=\"font-size: 17px; color: rgb(44, 62, 80);\">Reduce potential fuel within 100 feet﻿</span></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<p style=\"line-height: 1.7;\"><strong style=\"font-size: 14px; color: rgb(44, 62, 80);\"> Zone 0:</strong><span style=\"font-size: 14px; color: rgb(44, 62, 80);\"> Reduce or remove combustible materials within 5 ft of the structure and install  1/8 inch metal mesh screening on vents.</span></p><p style=\"line-height: 1.7;\"><strong style=\"font-size: 14px; color: rgb(44, 62, 80);\"> Zone 1:</strong><span style=\"font-size: 14px; color: rgb(44, 62, 80);\"> Reduce or remove dead and dry vegetation within 30 ft of the structure.</span></p><p style=\"line-height: 1.7;\"><strong style=\"font-size: 14px; color: rgb(44, 62, 80);\"> Zone 2: </strong><span style=\"font-size: 14px; color: rgb(44, 62, 80);\">Actively manage and maintain vegetation within 100 ft of the structure.</span></p>",
         "style": {
           "wrap": true,
           "color": "#2c3e50"
@@ -9424,13 +9598,13 @@
         "functionConfig": {
           "icon": {
             "data": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6.5 7.5A.5.5 0 0 1 7 7h1.5v4.5h1a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1h1V8H7a.5.5 0 0 1-.5-.5\"></path><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16m0-1A7 7 0 1 0 8 1a7 7 0 0 0 0 14\" clip-rule=\"evenodd\"></path></svg>",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 17 16\"><g clip-path=\"url(#clip0_319_49)\"><path fill=\"#000\" d=\"M3.5 2a.5.5 0 0 1 0 1H2a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-3.5a.5.5 0 0 1 1 0V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM12.65.146l3.008 3.009.346.345-3.354 3.354a.5.5 0 0 1-.707-.708L14.17 3.92c-5.933-.282-8.47 2.178-7.875 7.525a.5.5 0 0 1-.994.11c-.66-5.938 2.328-8.865 8.703-8.641l-2.06-2.06a.5.5 0 0 1-.058-.638l.058-.07a.5.5 0 0 1 .707 0\"></path></g><defs><clipPath id=\"clip0_319_49\"><path fill=\"#fff\" d=\"M0 0h16.004v16H0z\"></path></clipPath></defs></svg>",
               "properties": {
-                "filename": "Info",
-                "originalName": "outlined/suggested/info.svg",
+                "filename": "Share 2",
+                "originalName": "outlined/editor/share-arrow-curve.svg",
                 "path": [
                   "generalAndArrows",
-                  "info"
+                  "share2"
                 ],
                 "inlineSvg": true,
                 "isUploaded": false,
@@ -9446,7 +9620,9 @@
             "openType": "_blank",
             "value": "https://www.usfa.fema.gov/wui/communities/take-action.html",
             "expression": null
-          }
+          },
+          "toolTip": "More information: https://www.usfa.fema.gov/wui/communities/take-action.html",
+          "toolTipExpression": null
         },
         "styleConfig": {
           "themeStyle": {
@@ -9467,7 +9643,8 @@
             "regular": {
               "enableDynamicStyle": false,
               "iconProps": {
-                "color": "rgba(44,62,80,0.89)"
+                "color": "rgba(44,62,80,0.89)",
+                "size": 14
               }
             }
           }
@@ -9548,10 +9725,10 @@
       "style": {
         "borderRadius": {
           "number": [
-            4,
-            4,
-            4,
-            4
+            5,
+            5,
+            5,
+            5
           ],
           "unit": "px"
         }
@@ -9866,7 +10043,16 @@
             "url": ""
           }
         },
-        "textColor": "#1a1c1c"
+        "textColor": "#1a1c1c",
+        "borderRadius": {
+          "number": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "unit": "px"
+        }
       },
       "layouts": {
         "DEFAULT": {
@@ -10108,7 +10294,10 @@
       "version": "1.21.0",
       "label": "Column 22",
       "config": {
-        "space": 10,
+        "space": {
+          "distance": 0,
+          "unit": "px"
+        },
         "style": {
           "padding": {
             "space": [
@@ -10619,7 +10808,10 @@
       "version": "1.21.0",
       "label": "Column 25",
       "config": {
-        "space": 10,
+        "space": {
+          "distance": 0,
+          "unit": "px"
+        },
         "style": {
           "padding": {
             "space": [
@@ -10670,7 +10862,7 @@
         "direction": "VERTICAL",
         "collapseSide": "SECOND",
         "overlay": false,
-        "size": "128px",
+        "size": "190px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -10743,7 +10935,6 @@
       "label": "Find Your Property 2",
       "config": {
         "text": "<h2 style=\"line-height: 1;\"><strong style=\"font-size: 18px; color: rgb(255, 255, 255);\"> Find Your Property</strong></h2>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#ffffff"
@@ -10781,7 +10972,6 @@
       "label": "Assess Your Property Text 2",
       "config": {
         "text": "<h2 style=\"line-height: 1;\"><strong style=\"color: rgb(255, 255, 255); font-size: 18px;\"> Assess Your Property</strong></h2>",
-        "placeholder": "<h2><strong>Double click to edit text</strong></h2>",
         "style": {
           "wrap": true,
           "color": "#ffffff"
@@ -10818,7 +11008,6 @@
       "label": "Text 23",
       "config": {
         "text": "<h2 style=\"line-height: 1;\"><strong style=\"color: rgb(255, 255, 255); font-size: 18px;\"> Understand Risks</strong></h2>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#ffffff"
@@ -10835,10 +11024,10 @@
         },
         "borderRadius": {
           "number": [
-            4,
-            4,
-            4,
-            4
+            5,
+            5,
+            0,
+            0
           ],
           "unit": "px"
         },
@@ -10854,8 +11043,7 @@
       "version": "1.21.0",
       "label": "Text 24",
       "config": {
-        "text": "<p style=\"line-height: 1.7;\"><strong style=\"color: rgb(44, 62, 80); font-size: 14px;\"> Zone 0:</strong><span style=\"color: rgb(44, 62, 80); font-size: 14px;\"> Start closest to your home to be ember-resistant</span></p><p style=\"line-height: 1.7;\"><strong style=\"color: rgb(44, 62, 80); font-size: 14px;\"> Zone 1:</strong><span style=\"color: rgb(44, 62, 80); font-size: 14px;\"> Keep it lean, clean, green within 30 feet</span></p><p style=\"line-height: 1.7;\"><strong style=\"color: rgb(44, 62, 80); font-size: 14px;\"> Zone 2: </strong><span style=\"color: rgb(44, 62, 80); font-size: 14px;\">Reduce potential fuel within 100 feet﻿</span></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<p style=\"line-height: 1.7;\"><strong style=\"font-size: 14px; color: rgb(44, 62, 80);\"> Zone 0:</strong><span style=\"font-size: 14px; color: rgb(44, 62, 80);\"> Reduce or remove combustible materials within 5 ft of the structure install 1/8 inch metal mesh screening on vents</span></p><p style=\"line-height: 1.7;\"><strong style=\"font-size: 14px; color: rgb(44, 62, 80);\"> Zone 1:</strong><span style=\"font-size: 14px; color: rgb(44, 62, 80);\"> Reduce or remove dead and dry vegetation within 30 ft of the structure</span></p><p style=\"line-height: 1.7;\"><strong style=\"font-size: 14px; color: rgb(44, 62, 80);\"> Zone 2: </strong><span style=\"font-size: 14px; color: rgb(44, 62, 80);\">Actively manage and maintain vegetation within 100 ft of the structure.</span></p>",
         "style": {
           "wrap": true,
           "color": "#2c3e50"
@@ -10888,7 +11076,6 @@
       "label": "Title Text 2",
       "config": {
         "text": "<h1><strong style=\"font-size: 16px;\">﻿WUI Fire Property Awareness Explorer</strong></h1>",
-        "placeholder": "<h1><strong>Double click to edit text</strong></h1>",
         "style": {
           "wrap": true
         }
@@ -10930,7 +11117,7 @@
         "direction": "VERTICAL",
         "collapseSide": "SECOND",
         "overlay": false,
-        "size": "106px",
+        "size": "117px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -11027,7 +11214,6 @@
       "label": "Title Text 3",
       "config": {
         "text": "<h1 style=\"line-height: 0.8;\"><strong style=\"font-size: 24px;\">﻿WUI Fire Property Awareness Explorer</strong></h1>",
-        "placeholder": "<h1><strong>Double click to edit text</strong></h1>",
         "style": {
           "wrap": true
         }
@@ -11095,7 +11281,7 @@
       "useDataSources": []
     },
     "widget_244": {
-      "uri": "widgets/defensible-space-fire-buffer/defensible-space-fire-buffer/",
+      "uri": "widgets/defensible-space-fire-buffer/",
       "version": "1.0.0",
       "label": "Defensible Space Fire Buffer 2",
       "config": {},
@@ -11134,7 +11320,7 @@
             },
             "position": "LEFT"
           },
-          "text": "Reset Page",
+          "text": "Refresh Page",
           "textExpression": null,
           "linkParam": {
             "linkType": "WEB_ADDRESS",
@@ -11202,7 +11388,7 @@
             },
             "position": "LEFT"
           },
-          "text": "Reset",
+          "text": "Refresh",
           "textExpression": null,
           "linkParam": {
             "linkType": "WEB_ADDRESS",
@@ -11322,7 +11508,7 @@
             },
             "position": "LEFT"
           },
-          "text": "Reset",
+          "text": "Refresh",
           "textExpression": null,
           "linkParam": {
             "linkType": "WEB_ADDRESS",
@@ -11376,7 +11562,7 @@
       }
     },
     "widget_252": {
-      "uri": "widgets/defensible-space-fire-buffer/defensible-space-fire-buffer/",
+      "uri": "widgets/defensible-space-fire-buffer/",
       "version": "1.0.0",
       "label": "Defensible Space Fire Buffer 3",
       "config": {},
@@ -11393,7 +11579,7 @@
       ]
     },
     "widget_253": {
-      "uri": "widgets/defensible-space-fire-buffer/defensible-space-fire-buffer/",
+      "uri": "widgets/defensible-space-fire-buffer/",
       "version": "1.0.0",
       "label": "Defensible Space Fire Buffer 4",
       "config": {},
@@ -11408,6 +11594,198 @@
           "rootDataSourceId": "dataSource_4"
         }
       ]
+    },
+    "widget_254": {
+      "uri": "widgets/layout/flowrow/",
+      "version": "1.21.0",
+      "label": "Flow Row 2",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "space-between",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_254",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_223"
+        }
+      }
+    },
+    "widget_256": {
+      "uri": "widgets/common/button/",
+      "version": "1.21.0",
+      "label": "Button 23",
+      "config": {
+        "functionConfig": {
+          "text": "Explore Imagery and Zone to view on map ",
+          "textExpression": null,
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M7.5 1c.291 0 .527.231.527.516v11.508L11.6 9.527a.535.535 0 0 1 .746 0 .51.51 0 0 1 0 .73L7.5 15l-4.846-4.743a.51.51 0 0 1 0-.73.535.535 0 0 1 .746 0l3.573 3.497V1.516c0-.285.236-.516.527-.516\"></path></svg>",
+              "properties": {
+                "filename": "Downwards arrow",
+                "originalName": "outlined/directional/arrow-down.svg",
+                "path": [
+                  "generalAndArrows",
+                  "arrowDown2"
+                ],
+                "inlineSvg": true,
+                "isUploaded": false,
+                "color": "var(--ref-palette-neutral-1100)"
+              }
+            },
+            "position": "RIGHT"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": true,
+          "customStyle": {
+            "hover": {
+              "enableDynamicStyle": false,
+              "background": {
+                "color": "#ffffff",
+                "fillType": "fill"
+              }
+            },
+            "regular": {
+              "enableDynamicStyle": false,
+              "text": {
+                "color": "var(--dark-500)"
+              },
+              "iconProps": {
+                "color": "var(--dark-500)"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#ffffff",
+                "width": "0px"
+              },
+              "borderRadius": {
+                "number": [
+                  0,
+                  0,
+                  5,
+                  5
+                ],
+                "unit": "px"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_256",
+      "useDataSources": [],
+      "style": {
+        "borderRadius": {
+          "number": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "unit": "px"
+        },
+        "border": {
+          "type": "dashed",
+          "color": "var(--org-header-color)",
+          "width": "0px"
+        }
+      }
+    },
+    "widget_258": {
+      "uri": "widgets/common/button/",
+      "version": "1.21.0",
+      "label": "Button 24",
+      "config": {
+        "functionConfig": {
+          "text": "Explore Imagery and Zone to view results on map ",
+          "textExpression": null,
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M7.5 1c.291 0 .527.231.527.516v11.508L11.6 9.527a.535.535 0 0 1 .746 0 .51.51 0 0 1 0 .73L7.5 15l-4.846-4.743a.51.51 0 0 1 0-.73.535.535 0 0 1 .746 0l3.573 3.497V1.516c0-.285.236-.516.527-.516\"></path></svg>",
+              "properties": {
+                "filename": "Downwards arrow",
+                "originalName": "outlined/directional/arrow-down.svg",
+                "path": [
+                  "generalAndArrows",
+                  "arrowDown2"
+                ],
+                "inlineSvg": true,
+                "isUploaded": false,
+                "color": "var(--ref-palette-neutral-1100)"
+              }
+            },
+            "position": "RIGHT"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": true,
+          "customStyle": {
+            "hover": {
+              "enableDynamicStyle": false,
+              "background": {
+                "color": "#ffffff",
+                "fillType": "fill"
+              }
+            },
+            "regular": {
+              "enableDynamicStyle": false,
+              "text": {
+                "color": "var(--dark-500)"
+              },
+              "iconProps": {
+                "color": "var(--dark-500)"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#ffffff",
+                "width": "1px"
+              },
+              "borderRadius": {
+                "number": [
+                  0,
+                  0,
+                  5,
+                  5
+                ],
+                "unit": "px"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_258",
+      "useDataSources": [],
+      "style": {
+        "borderRadius": {
+          "number": [
+            0,
+            0,
+            5,
+            5
+          ],
+          "unit": "px"
+        },
+        "border": {
+          "type": "solid",
+          "color": "#ffffff",
+          "width": "1px"
+        }
+      }
     }
   },
   "widgetsManifest": {},
@@ -11453,7 +11831,7 @@
     },
     "view_14": {
       "id": "view_14",
-      "label": "Satellite",
+      "label": "Imagery",
       "layout": {
         "SMALL": "layout_209"
       },
@@ -11496,18 +11874,18 @@
       "id": "section_4",
       "label": "Section 3",
       "views": [
+        "view_13",
         "view_10",
-        "view_12",
-        "view_13"
+        "view_12"
       ]
     },
     "section_5": {
       "id": "section_5",
       "label": "Section 4",
       "views": [
+        "view_16",
         "view_14",
-        "view_15",
-        "view_16"
+        "view_15"
       ]
     }
   },
@@ -11613,7 +11991,7 @@
         },
         "MEDIUM": {
           "width": "437px",
-          "height": "352px"
+          "height": "300.00px"
         },
         "SMALL": {
           "width": "800.00px",
@@ -11672,7 +12050,7 @@
         },
         "SMALL": {
           "width": "800px",
-          "height": "389px"
+          "height": "360.00px"
         }
       },
       "interactionType": null,
@@ -12504,9 +12882,17 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://FEMA.maps.arcgis.com"
+    "portalUrl": "https://FEMA.maps.arcgis.com",
+    "enableA11yForWidgetSettings": true,
+    "isWebTier": false,
+    "clientId": "",
+    "express": false,
+    "title": "WUI Fire Property Awareness Explorer",
+    "description": "map updated",
+    "type": "Web Experience",
+    "thumbnail": null
   },
-  "timestamp": 1786653396854,
+  "timestamp": 1788892257934,
   "sharedThemeVariables": {
     "header": {
       "bg": "#045388",
@@ -13301,10 +13687,19 @@
   "mainLocale": "en-us",
   "customTheme": {
     "focusedStyles": {
-      "color": "#2c3f51"
+      "color": "#ff4fa3"
     },
     "colors": {
       "primary": "#2c3f51"
     }
-  }
+  },
+  "useAutoSortInFixedLayout": true,
+  "historyLabels": {
+    "views": {
+      "view_14": [
+        "Satellite"
+      ]
+    }
+  },
+  "publishTimestamp": 1788892258776
 }

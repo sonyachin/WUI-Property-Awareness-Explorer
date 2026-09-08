@@ -12835,8 +12835,8 @@
     },
     "i18nLabel": {},
     "i18nDescription": {},
-    "uri": "widgets/defensible-space-fire-buffer/defensible-space-fire-buffer/",
-    "icon": "widgets/defensible-space-fire-buffer/defensible-space-fire-buffer/icon.svg",
+    "uri": "widgets/defensible-space-fire-buffer/",
+    "icon": "widgets/defensible-space-fire-buffer/icon.svg",
     "order": 700,
     "group": 7
   },
