@@ -8030,7 +8030,7 @@
       "version": "1.21.0",
       "label": "Text 11",
       "config": {
-        "text": "<h4><span style=\"font-size: 18px;\">Application Resources</span></h4><p><a href=\"dialog_8\" target=\"_self\" data-uniqueid=\"8f837323_bb5a_bcaa_6230_15f015c8ac72\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22DIALOG%22%2C%22value%22%3A%22dialog_8%22%7D\" style=\"font-size: 14px;\">Data and Methodology Window</a></p><p><a href=\"dialog_9\" target=\"_self\" data-uniqueid=\"a781a98c_8f1c_6370_c35b_2f42351f31c7\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22DIALOG%22%2C%22value%22%3A%22dialog_9%22%7D\" style=\"font-size: 14px;\">Application Guidelines Window</a></p><p><span style=\"font-size: 14px;\">User Guide</span></p><p><br></p><h4><span style=\"font-size: 18px;\">Community Resources</span></h4><p><span style=\"font-size: 14px;\">&nbsp;</span><a href=\"https://www.usfa.fema.gov/wui/communities/take-action.html\" target=\"_blank\" data-uniqueid=\"765d9b2e_43e4_25c3_2d81_6bd2a1355cc1\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Ftake-action.html%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-size: 14px;\">Take Action (fema.gov)</a></p><p><span style=\"font-size: 14px;\">&nbsp;</span><a href=\"https://www.usfa.fema.gov/wui/communities/action-plan.html\" target=\"_blank\" data-uniqueid=\"df13c32e_43f4_2f99_1ba0_a7a994f2abe2\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Faction-plan.html%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-size: 14px;\">With the Community (fema.gov)</a></p><p>&nbsp;</p>",
+        "text": "<h4><span style=\"font-size: 18px;\">Application Resources</span></h4><p><a href=\"dialog_8\" target=\"_self\" data-uniqueid=\"8f837323_bb5a_bcaa_6230_15f015c8ac72\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22DIALOG%22%2C%22value%22%3A%22dialog_8%22%7D\" style=\"font-size: 14px;\">Data and Methodology Window</a></p><p><a href=\"dialog_9\" target=\"_self\" data-uniqueid=\"a781a98c_8f1c_6370_c35b_2f42351f31c7\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22DIALOG%22%2C%22value%22%3A%22dialog_9%22%7D\" style=\"font-size: 14px;\">Application Guidelines Window</a></p><p><a href=\"https://fema.maps.arcgis.com/sharing/rest/content/items/52bcb34216a248c8bb839de68750d697/data\" target=\"_blank\" data-uniqueid=\"76063afc_f048_bbed_5b1e_93b802c1d8e0\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Ffema.maps.arcgis.com%2Fsharing%2Frest%2Fcontent%2Fitems%2F52bcb34216a248c8bb839de68750d697%2Fdata%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 14px;\">User Guide</a></p><p><br></p><h4><span style=\"font-size: 18px;\">Community Resources</span></h4><p><span style=\"font-size: 14px;\">&nbsp;</span><a href=\"https://www.usfa.fema.gov/wui/communities/take-action.html\" target=\"_blank\" data-uniqueid=\"765d9b2e_43e4_25c3_2d81_6bd2a1355cc1\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Ftake-action.html%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-size: 14px;\">Take Action (fema.gov)</a></p><p><span style=\"font-size: 14px;\">&nbsp;</span><a href=\"https://www.usfa.fema.gov/wui/communities/action-plan.html\" target=\"_blank\" data-uniqueid=\"df13c32e_43f4_2f99_1ba0_a7a994f2abe2\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.usfa.fema.gov%2Fwui%2Fcommunities%2Faction-plan.html%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22expression%22%3Anull%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-size: 14px;\">With the Community (fema.gov)</a></p><p>&nbsp;</p>",
         "style": {
           "wrap": true
         }
@@ -10862,7 +10862,7 @@
         "direction": "VERTICAL",
         "collapseSide": "SECOND",
         "overlay": false,
-        "size": "190px",
+        "size": "213px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -11043,7 +11043,7 @@
       "version": "1.21.0",
       "label": "Text 24",
       "config": {
-        "text": "<p style=\"line-height: 1.7;\"><strong style=\"font-size: 14px; color: rgb(44, 62, 80);\"> Zone 0:</strong><span style=\"font-size: 14px; color: rgb(44, 62, 80);\"> Reduce or remove combustible materials within 5 ft of the structure install 1/8 inch metal mesh screening on vents</span></p><p style=\"line-height: 1.7;\"><strong style=\"font-size: 14px; color: rgb(44, 62, 80);\"> Zone 1:</strong><span style=\"font-size: 14px; color: rgb(44, 62, 80);\"> Reduce or remove dead and dry vegetation within 30 ft of the structure</span></p><p style=\"line-height: 1.7;\"><strong style=\"font-size: 14px; color: rgb(44, 62, 80);\"> Zone 2: </strong><span style=\"font-size: 14px; color: rgb(44, 62, 80);\">Actively manage and maintain vegetation within 100 ft of the structure.</span></p>",
+        "text": "<p style=\"line-height: 1.5;\"><strong style=\"font-size: 12px; color: rgb(44, 62, 80);\">Zone 0: </strong><span style=\"font-size: 12px; color: rgb(44, 62, 80);\">Limit or remove combustible materials within 5 ft of the structure.</span></p><p style=\"line-height: 1.5;\"><strong style=\"font-size: 12px;\">Zone 1:</strong><span style=\"font-size: 12px;\"> Reduce, relocate or remove dead and dry vegetation within 30 ft of the structure.</span></p><p style=\"line-height: 1.5;\"><strong style=\"font-size: 12px;\">Zone 2:</strong><span style=\"font-size: 12px;\"> Actively manage and maintain vegetation within 100 ft of the structure.</span></p><p style=\"line-height: 1.5;\"><strong style=\"font-size: 12px;\">Structural Hardening:</strong><span style=\"font-size: 12px;\"> Class A roofs, noncombustible siding and 1/8-inch metal mesh vent screens are recommended to prevent ember and flame ignition in WUI areas.</span></p>",
         "style": {
           "wrap": true,
           "color": "#2c3e50"
@@ -11117,7 +11117,7 @@
         "direction": "VERTICAL",
         "collapseSide": "SECOND",
         "overlay": false,
-        "size": "117px",
+        "size": "150px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -11393,7 +11393,7 @@
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "openType": "_self",
-            "value": "https://sonyachin.github.io/WUI-Property-Awareness-Explorer/",
+            "value": "https://experience.arcgis.com/experience/bfcb2bf681d040ff9a70733371da1d7a",
             "expression": null
           }
         },
@@ -11513,7 +11513,7 @@
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "openType": "_self",
-            "value": "https://sonyachin.github.io/WUI-Property-Awareness-Explorer/",
+            "value": "https://experience.arcgis.com/experience/bfcb2bf681d040ff9a70733371da1d7a",
             "expression": null
           }
         },
@@ -12892,7 +12892,7 @@
     "type": "Web Experience",
     "thumbnail": null
   },
-  "timestamp": 1793215358276,
+  "timestamp": 1793378353160,
   "sharedThemeVariables": {
     "header": {
       "bg": "#045388",
@@ -13701,5 +13701,5 @@
       ]
     }
   },
-  "publishTimestamp": 1793215359227
+  "publishTimestamp": 1793378354463
 }
